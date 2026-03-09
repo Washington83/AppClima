@@ -1,6 +1,6 @@
 # 🌥️ Previsão Do Tempo
 
-🧪 Projeto que Consome dados através da Api Clima do Tempo.
+🧪 Projeto que Consome dados através da Api Clima do Tempo, nesse projeto aprendi a consumir api e mecher com tramento de erros.
 
 🛠️ Tecnologias Utilizadas
 
