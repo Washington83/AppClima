@@ -1,29 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Clima</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Previsão do Tempo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-   
+  <div class="container">
     <h1>Previsão do Tempo</h1>
-
-    <p class="subtitulo">
-      Consulte o clima de qualquer cidade do mundo
-    </p>
-
+    <p class="subtitulo">Consulte o clima de qualquer cidade do mundo</p>
     <div class="busca">
-    <input id="cidade" placeholder="Ex: São Paulo, London, Tokyo...">
-    <button id="buscar">Buscar</button>
-    </div>
+    <input type="text" id="cidade" placeholder="Digite a cidade">
+    <button onclick="buscarClima()">Buscar</button>
+  </div>
 
-    </div>
+  <div id="resultado"></div>
 
-    <script src="script.js"></script>
+  </div>
 
-  </body>
+  <script src="script.js"></script>
+
+ </body>
 </html>
