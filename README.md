@@ -1,6 +1,6 @@
 # 🌥️ Previsão Do Tempo
 
-🧪 Projeto que Consome dados através da Api Clima do Tempo, nesse projeto aprendi a consumir api e mecher com tramento de erros.
+🧪 Neste projeto pratiquei o consumo de API utilizando a API do OpenWeather, realizando requisições assíncronas com fetch e async/await. Também implementei tratamento de erros para validar a requisição, lidar com cidades inválidas e evitar falhas na aplicação.
 
 🛠️ Tecnologias Utilizadas
 
