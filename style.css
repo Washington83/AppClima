@@ -1,71 +1,104 @@
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family: "Segoe UI", sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Segoe UI", sans-serif;
 }
 
-body{
-  height:100vh;
-  display:flex;
-  align-items:flex-start;
-  justify-content:center;
-  background: linear-gradient(135deg,#020617,#0f172a,#020617);
-  color:white;
+body {
+  background: #1e293b; /* fundo escuro da página */
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .container{
-   margin-top:120px;
-   text-align:center;
+  margin-top:120px;
+  text-align:center;
 }
 
 h1{
-   font-size:60px;
-   font-weight:700;
-   background: linear-gradient(90deg,#ffffff,#60a5fa);
-   -webkit-background-clip:text;
-   color:transparent;
+  font-size:60px;
+  background: linear-gradient(90deg,#ffffff,#60a5fa);
+  -webkit-background-clip:text;
+  color:transparent;
 }
 
-.subtitulo{
-   color:#94a3b8;
-   margin-top:10px;
-   margin-bottom:30px;
+.subtitulo{ 
+  color:#94a3b8;
+  margin-top:10px;
+  margin-bottom:30px;
 }
 
 .busca{
-   display:flex;
-   gap:10px;
-   justify-content:center;
+  display:flex;
+  gap:10px; 
+  justify-content:center;
 }
 
 input{
-   width:420px;
-   padding:15px 20px;
-   border-radius:12px;
-   border:1px solid #1e293b;
-   background:#0f172a;
-   color:white;
-   font-size:16px;
-   outline:none;
-}
-
-input::placeholder{
-   color:#64748b;
+  width:420px;
+  padding:15px 20px;
+  border-radius:12px;
+  border:1px solid #1e293b;
+  background:#0f172a;
+  color:white;
+  font-size:16px;
+  outline:none;
 }
 
 button{
-   padding:15px 25px;
-   border:none;
-   border-radius:12px;
-   background:#3b82f6;
-   color:white;
-   font-weight:600;
-   cursor:pointer;
-   transition:0.3s;
+  padding:15px 25px;
+  border:none;
+  border-radius:12px;
+  background:#3b82f6;
+  color:white;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
 }
 
 button:hover{
-   background:#2563eb;
-   transform:translateY(-2px);
+  background:#2563eb;
+  transform:translateY(-2px);
+}
+
+/* CARD */
+#resultado {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.card-clima {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  color: #333;
+}
+
+.card-clima h2 {
+  margin-bottom: 10px;
+}
+
+.card-clima p {
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 100%;
+  }
+  .card-clima {
+    width: 100%;
+  }
 }
